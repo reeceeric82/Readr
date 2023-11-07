@@ -1,0 +1,42 @@
+:root {
+  --main-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.center-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  font-family: sans-serif;
+  font-size: 25px;
+  background-color: var(--main-color);
+  color: #fff;
+  height: 45px;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+}
+
+.controls {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-evenly;
+}
+
+.btn {
+  font-size: 25px;
+  width: 30%;
+  color: white;
+  background-color: green;
+  border: 0 solid transparent;
+}
