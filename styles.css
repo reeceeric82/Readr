@@ -36,7 +36,19 @@
 .btn {
   font-size: 25px;
   width: 30%;
+  height: 45px;
   color: white;
   background-color: green;
   border: 0 solid transparent;
+  border-radius: 5px;
+}
+
+#user-input {
+  margin-top: 5%;
+  width: 200px;
+}
+
+.label {
+  color: black;
+  font-size: 15px;
 }
